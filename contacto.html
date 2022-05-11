@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Contacto</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+    </style>
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <div id="containerLogoPrincipal">
+            <a href="/index.html"><img id="logoPrincipal" src="/images/logo.png" alt="Logotipo" width=""></a>
+        </div>
+
+        <nav class="navbar">
+
+            <ul>
+
+                <li class="button"><a href="/index.html">Inicio</a></li>
+                <li class="button"><a href="/pages/servicios.html">Servicios</a>
+                    <ul class="navegador__submenu">
+                        <li><a href="/pages/branding.html">Branding</a></li>
+                        <li><a href="/pages/ilustración.html">Ilustración</a></li>
+<!--                         <li><a href="/pages/desarrollo web.html">Desarrollo web</a></li> -->
+                      </ul>  
+                </li>
+                <li class="button"><a href="/pages/trabajos.html">Trabajos</a></li>
+                <li class="button"><a href="/pages/información.html">Información</a></li>
+                <li class="button"><a href="/pages/contacto.html">Contacto</a></li>
+                
+            </ul>
+            
+        </nav>
+
+    </header>
+
+    <main id="mainContact">
+
+        <div class="containerContact">
+            <form class="formContact">
+               <!--  <form action="" method="" enctype=""> </form> -->
+                    
+                <p class="formItem1">
+                 <label for="fullname">Nombre</label>
+                 <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre completo">
+                </p>
+
+                <p class="formItem1">
+                    <label for="number">Edad:</label>
+                    <input type="number" id="edad" name="edad" placeholder="Ingrese su edad">
+                </p>
+                    
+                <p class="formItem1">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Ingrese su E-mail">
+                </p>
+                    
+                <p class="blockForm">
+                    <label for="comment">Dejanos un comentario:</label>
+                    <textarea placeholder="Escribe aquí" name="comment" id="comment" rows="3"></textarea> 
+                </p>
+
+                <p class="blockForm"> 
+                    <label for="terminos">¿Querés recibir noticias y promociones?</label>
+                    <input type="checkbox" name="terminos" id="terminos">
+                </p>
+
+                <button type="submit" class="blockForm">Enviar</button>
+
+            </form>
+
+            <div class="infoContact">
+                <div>
+                    <h4>Información</h4>
+
+                    <ul>
+                        <li><i class="fas fa-envelope-open-text"></i> TEXT</li>
+                        <li><i class="fas fa-envelope-open-text"></i> TEXT</li>
+                        <li><i class="fas fa-envelope-open-text"></i> TEXT</li>
+                    </ul>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsa error esse, aspernatur cum culpa obcaecati, aliquam labore ex natus tempora, laudantium doloremque odio excepturi. Totam quas eos quisquam rem.</p>
+                 </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer class="footer">
+
+        <div class="footerStyle">
+            <div class="containerRrss">
+                <div class="rowRrss">
+    
+                    <div class="footer-colRrss">
+                        <h4>Enlaces</h4>
+                        <ul>
+                            <li> <a href="/index.html">Inicio</a></li>
+                            <li> <a href="/pages/servicios.html">Servicios</a></li>
+                            <li> <a href="/pages/trabajos.html">Trabajos</a></li>
+                            <li> <a href="/pages/información.html">Información</a></li>
+                            <li> <a href="/pages/contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                        
+                    <div class="footer-colRrss">
+    
+                        <h4>Seguinos!</h4>
+                        <div class="socialLinks">
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>    
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+            <div id="cite">
+                <cite><span>© 2022</span> MILTON STUTZ - DESARROLLO WEB - <span>CODERHOUSE</span></cite>
+            </div>
+    
+    </footer>
+    
+    
+
+
+</body>
+</html>
